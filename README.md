@@ -1,0 +1,7 @@
+# Synthetic-Text-Generation
+
+This repository deals with implemnetaions of various Deep Learning based sentiment laden text generation.
+
+VariationalSentimentTextGeneration_IMDB.ipynb file dela with implementing the concepts of text generation as mentioned in the paper by Bowman et al., 2015,
+augmented with the concept of Highway networks (Srivastava, 2015) for better quality, gramatically coherent text.
+I have used two different models for generating the the two sentiments (pos and neg), which are exact replica of each other except for the training data.
