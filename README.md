@@ -13,3 +13,7 @@ This implementatiopn also deals with bypassing the posterior collapse problem of
 # text in gray
 @@ text in purple (and bold)@@
 ```
+
+```html
+<h1>VariationalSentimentTextGeneration_IMDB.ipynb </h1>
+```
