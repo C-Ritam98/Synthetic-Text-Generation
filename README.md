@@ -7,4 +7,16 @@ augmented with the concept of Highway networks (Srivastava, 2015) for better qua
 I have used two different models for generating the the two sentiments (pos and neg), which are exact replica of each other except for the training data.
 This implementatiopn also deals with bypassing the posterior collapse problem often faced by vae models for text generation, using beta-loss term, highway nets and removal of teacher forcing in decoder.
 
+
 ***conditional_vae.ipynb*** implements how a single vae can be used to generate sentiment laden text from a single model, conditioned on the sentimnent. _z_ vector sampled from latent space is concatenated with the condition _c_, and _(z,c)_ fed to the decoder. Experiments show how the latent space is entangled and the generated sentences show model collapse as a result of it.
+
+
+
+***TSMH.ipynb*** is the implementation of the paper
+<dl>
+  <dt>Definition list</dt>
+  <dd>Is something people use sometimes.</dd>
+
+  <dt>Markdown in HTML</dt>
+  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+</dl>
