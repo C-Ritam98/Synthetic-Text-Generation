@@ -12,11 +12,5 @@ This implementatiopn also deals with bypassing the posterior collapse problem of
 
 
 
-***TSMH.ipynb*** is the implementation of the paper
-<dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
+***TSMH.ipynb*** is the implementation of the <a href="https://arxiv.org/pdf/2011.12334.pdf"> paper </a>, "Language Generation via Combinatorial Constraint Satisfaction: A Tree Search Enhanced Monte-Carlo Approach".
 
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-</dl>
