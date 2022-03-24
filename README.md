@@ -12,5 +12,5 @@ This implementatiopn also deals with bypassing the posterior collapse problem of
 
 
 
-***TSMH.ipynb*** is the implementation of the <a href="https://arxiv.org/pdf/2011.12334.pdf"> paper </a>, "Language Generation via Combinatorial Constraint Satisfaction: A Tree Search Enhanced Monte-Carlo Approach".
+***TSMH.ipynb*** is the implementation of the <a href="https://arxiv.org/pdf/2011.12334.pdf"> paper </a>, "Language Generation via Combinatorial Constraint Satisfaction: A Tree Search Enhanced Monte-Carlo Approach", with some subtle modifications. These modifications include introduction of multithreading for faster sentence generation (mcmc methods are pretty slow, as they require time to _burn in_) and modifying the Metropolis-Hastings condition slightly.
 
