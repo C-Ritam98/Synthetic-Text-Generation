@@ -8,7 +8,7 @@ I have used two different models for generating the the two sentiments (pos and 
 This implementatiopn also deals with bypassing the posterior collapse problem often faced by vae models for text generation, using beta-loss term, highway nets and removal of teacher forcing in decoder.
 
 
-***conditional_vae.ipynb*** implements how a single vae can be used to generate sentiment laden text from a single model, conditioned on the sentimnent. _z_ vector sampled from latent space is concatenated with the condition _c_, and _(z,c)_ fed to the decoder. Experiments show how the latent space is entangled and the generated sentences show model collapse as a result of it.
+***conditional_vae.ipynb*** implements how a single vae can be used to generate sentiment laden text from a single model, conditioned on the sentimnent. _z_ vector sampled from latent space is concatenated with the condition _c_, and _(z,c)_ fed to the decoder. Experiments show how the latent space is entangled and the generated sentences show mode collapse as a result of it.
 
 
 
